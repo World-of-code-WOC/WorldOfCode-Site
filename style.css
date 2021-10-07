@@ -1,0 +1,27 @@
+/* Feuille de styles CSS */
+
+header img { 
+  width: 50%;         
+  }
+  
+header h1 {
+  color: rgb(0, 255, 0);
+  text-align: center;
+  width: 50%;
+  font-size: 30px;
+  font-family: Consolas;
+  }
+  
+#ConteneurHeader {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  }
+  
+body
+{
+    background-color: rgb(74, 74, 74); /* Le fond de la page sera noir */
+    color: black; /* Le texte de la page sera blanc */
+}
