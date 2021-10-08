@@ -1,27 +1,56 @@
 /* Feuille de styles CSS */
 
-header img { 
+header img 
+{ 
   width: 50%;         
-  }
+}
   
-header h1 {
+header h1 
+{
   color: rgb(0, 255, 0);
   text-align: center;
   width: 50%;
   font-size: 30px;
   font-family: Consolas;
-  }
+}
   
-#ConteneurHeader {
+#ConteneurHeader 
+{
   margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10%;
-  }
+}
+
+nav ul 
+{
+  padding:0;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li 
+{
+  display: inline-block;
+}
+nav ul li a 
+{
+  display: block;
+  color: rgb(200, 200, 200);
+  border-bottom: 3px solid rgb(74, 74, 74);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav ul li a:hover 
+{
+  color: rgb(255, 0, 0);
+  border-bottom: 3px solid rgb(255, 0, 0);
+}
+
   
 body
 {
-    background-color: rgb(74, 74, 74); /* Le fond de la page sera noir */
-    color: black; /* Le texte de la page sera blanc */
+  background-color: rgb(74, 74, 74);
+  color: black;
 }
