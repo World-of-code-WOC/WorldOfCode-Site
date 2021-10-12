@@ -1,26 +1,12 @@
 /* Feuille de styles CSS */
 
-header img 
+header a img
 { 
-  width: 50%;         
+  width: 100%;
 }
-  
-header h1 
-{
-  color: rgb(0, 255, 0);
-  text-align: center;
-  width: 50%;
-  font-size: 30px;
-  font-family: Consolas;
-}
-  
-#ConteneurHeader 
-{
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
+/* Barre de navigation */
 
 nav ul 
 {
@@ -48,9 +34,32 @@ nav ul li a:hover
   border-bottom: 3px solid rgb(255, 0, 0);
 }
 
-  
+/* Page */
+
 body
 {
+  margin: 20px;
   background-color: rgb(74, 74, 74);
-  color: black;
+  color: white;
+  font-size: 30;
+  font-family: consolas;
+}
+
+/* Tutoriels */
+
+.Introduction p
+{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.Introduction p a
+{
+  color: white;
+}
+
+.ListeCours p a
+{
+  color: white;
 }
